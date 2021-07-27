@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    box-shadow: 5px 5px 20px 1px rgba(0,0,0,.2);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.item {
+    color: blue;
+    font-weight: 500;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    color: gray;
+    text-align: center;
+}
+
+.form-control {
+    background: lightyellow;
+}
